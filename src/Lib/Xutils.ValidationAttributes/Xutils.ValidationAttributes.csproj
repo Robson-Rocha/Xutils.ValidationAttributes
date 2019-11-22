@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Robson-Rocha/Xutils.ValidationAttributes</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Robson-Rocha/Xutils.ValidationAttributes</RepositoryUrl>
@@ -10,6 +10,10 @@
     <Copyright>Copyright ©2019 Robson Rocha de Araújo</Copyright>
     <Description>Common validation attributes for .NET applications</Description>
     <PackageIcon>nuget.png</PackageIcon>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="images\nuget.png" Pack="true" PackagePath="\"/>
+    <None Include="images\nuget.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

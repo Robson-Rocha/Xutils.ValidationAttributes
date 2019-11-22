@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 
-namespace DeepRen
+namespace Xutils.ValidationAttributes
 {
     /// <summary>
     /// Validates if the path represented by the annotated property or field exists in disk
